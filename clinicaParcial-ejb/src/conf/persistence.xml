@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="clinicaParcial-ejbPU" transaction-type="JTA">
+    <jta-data-source>jdbc/clinica</jta-data-source>
+    <class>sv.edu.uesocc.ingenieria.tpi135_2016.clinica.datos.definiciones.Area</class>
+    <class>sv.edu.uesocc.ingenieria.tpi135_2016.clinica.datos.definiciones.AreaCentro</class>
+    <class>sv.edu.uesocc.ingenieria.tpi135_2016.clinica.datos.definiciones.AreaCentroEspacio</class>
+    <class>sv.edu.uesocc.ingenieria.tpi135_2016.clinica.datos.definiciones.AsignacionPersonalCentroArea</class>
+    <class>sv.edu.uesocc.ingenieria.tpi135_2016.clinica.datos.definiciones.AsignacionPersonalCentroAreaEspacio</class>
+    <class>sv.edu.uesocc.ingenieria.tpi135_2016.clinica.datos.definiciones.Centro</class>
+    <class>sv.edu.uesocc.ingenieria.tpi135_2016.clinica.datos.definiciones.Diagnostico</class>
+    <class>sv.edu.uesocc.ingenieria.tpi135_2016.clinica.datos.definiciones.DiagnosticoExamen</class>
+    <class>sv.edu.uesocc.ingenieria.tpi135_2016.clinica.datos.definiciones.Espacio</class>
+    <class>sv.edu.uesocc.ingenieria.tpi135_2016.clinica.datos.definiciones.Especialidad</class>
+    <class>sv.edu.uesocc.ingenieria.tpi135_2016.clinica.datos.definiciones.Examen</class>
+    <class>sv.edu.uesocc.ingenieria.tpi135_2016.clinica.datos.definiciones.Ingreso</class>
+    <class>sv.edu.uesocc.ingenieria.tpi135_2016.clinica.datos.definiciones.IngresoDetalle</class>
+    <class>sv.edu.uesocc.ingenieria.tpi135_2016.clinica.datos.definiciones.IngresoDetalleDiagnostico</class>
+    <class>sv.edu.uesocc.ingenieria.tpi135_2016.clinica.datos.definiciones.IngresoDetalleExamen</class>
+    <class>sv.edu.uesocc.ingenieria.tpi135_2016.clinica.datos.definiciones.MedioContacto</class>
+    <class>sv.edu.uesocc.ingenieria.tpi135_2016.clinica.datos.definiciones.Paciente</class>
+    <class>sv.edu.uesocc.ingenieria.tpi135_2016.clinica.datos.definiciones.PacienteMedioContacto</class>
+    <class>sv.edu.uesocc.ingenieria.tpi135_2016.clinica.datos.definiciones.Personal</class>
+    <class>sv.edu.uesocc.ingenieria.tpi135_2016.clinica.datos.definiciones.PersonalEspecialidad</class>
+    <class>sv.edu.uesocc.ingenieria.tpi135_2016.clinica.datos.definiciones.TipoCentro</class>
+    <class>sv.edu.uesocc.ingenieria.tpi135_2016.clinica.datos.definiciones.TipoEspacio</class>
+    <class>sv.edu.uesocc.ingenieria.tpi135_2016.clinica.datos.definiciones.TipoEspecialidad</class>
+    <class>sv.edu.uesocc.ingenieria.tpi135_2016.clinica.datos.definiciones.TipoExamen</class>
+    <class>sv.edu.uesocc.ingenieria.tpi135_2016.clinica.datos.definiciones.TipoIngreso</class>
+    <class>sv.edu.uesocc.ingenieria.tpi135_2016.clinica.datos.definiciones.TipoMedioContacto</class>
+    <exclude-unlisted-classes>true</exclude-unlisted-classes>
+    <properties/>
+  </persistence-unit>
+</persistence>
